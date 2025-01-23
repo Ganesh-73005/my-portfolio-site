@@ -2,6 +2,10 @@ import React from "react";
 
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
+import e from "../../../assets/contact/emailIcon.png"
+import l from "../../../assets/contact/linkedinIcon.png"
+import g from "../../../assets/contact/githubIcon.png"
+
 
 export const Contact = () => {
   return (
@@ -12,18 +16,18 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("../assets/contact/emailIcon.png")} alt="Email icon" />
-          <a href="ganeshsriramulu2@gmail.com">myemail@email.com</a>
+          <img src={e} alt="Email icon" />
+          <a href="ganeshsriramulu2@gmail.com">ganeshsriramulu2@gmail.com</a>
         </li>
         <li className={styles.link}>
           <img
-            src={getImageUrl("../assests/contact/linkedinIcon.png")}
+            src={l}
             alt="LinkedIn icon"
           />
-          <a href="https://www.linkedin.com/in/ganesh-sriramulu-60ba63339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin.com/Ganesh Sriramulu</a>
+          <a href="https://www.linkedin.com/in/ganesh-sriramulu-60ba63339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin.com/ganesh-sriramulu-60ba63339</a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("../assests/contact/githubIcon.png")} alt="Github icon" />
+          <img src={g} alt="Github icon" />
           <a href="https://www.github.com/Ganesh-73005">github.com/Ganesh-73005</a>
         </li>
       </ul>

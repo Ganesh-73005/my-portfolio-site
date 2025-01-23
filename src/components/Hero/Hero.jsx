@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
-
+import hero from  "../../../assets/about/hero1.png";
 export const Hero = () => {
   return (
     <section className={styles.container}>
@@ -17,7 +17,7 @@ export const Hero = () => {
         </a>
       </div>
       <img
-        src={getImageUrl("./hero.png")}
+        src={hero}
         alt="Hero image of me"
         className={styles.heroImg}
       />
