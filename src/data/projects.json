@@ -1,7 +1,7 @@
 [
   {
     "title": "Spot Perfect - Warehouse Location Predictor",
-    "imageSrc": "projects/warehouse-predictor.png",
+    "imageSrc": "../assets/projects/warehouse-predictor.png",
     "description": "Location prediction system for warehousing in tier 2 and tier 3 cities in India",
     "skills": ["Python", "Web Scraping", "G-Map API", "Data Analysis"],
     "demo": null,
@@ -9,7 +9,7 @@
   },
   {
     "title": "Livestock Disease Prediction System",
-    "imageSrc": "projects/livestock-disease.png",
+    "imageSrc": "../assets/projects/livestock-disease.png",
     "description": "Computer vision project for livestock disease prediction using 5000+ images",
     "skills": ["Computer Vision", "YOLO", "Image Augmentation"],
     "demo": null,
@@ -17,7 +17,7 @@
   },
   {
     "title": "Make Change - Homeless Support App",
-    "imageSrc": "projects/make-change.png",
+    "imageSrc": "../assets/projects/make-change.png",
     "description": "App to help track and support homeless individuals",
     "skills": ["Database Design", "Mobile App Development"],
     "demo": null,

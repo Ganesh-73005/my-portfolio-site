@@ -8,7 +8,7 @@
       "Developed database for NGOs to track homeless individuals",
       "Designed app for public submission of homeless location data"
     ],
-    "imageSrc": "history/thozan.jpeg"
+    "imageSrc": "../assets/history/thozan.jpeg"
   },
   {
     "role": "Head of Design",
@@ -19,6 +19,6 @@
       "Designed posters, logos, and certificates",
       "Orchestrated 2+ camps and 10+ awareness programs"
     ],
-    "imageSrc": "history/yrc.png"
+    "imageSrc": "../assets/history/yrc.png"
   }
 ]
