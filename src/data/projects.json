@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Spot Perfect - Warehouse Location Predictor",
+    "imageSrc": "projects/warehouse-predictor.png",
+    "description": "Location prediction system for warehousing in tier 2 and tier 3 cities in India",
+    "skills": ["Python", "Web Scraping", "G-Map API", "Data Analysis"],
+    "demo": null,
+    "source": null
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Livestock Disease Prediction System",
+    "imageSrc": "projects/livestock-disease.png",
+    "description": "Computer vision project for livestock disease prediction using 5000+ images",
+    "skills": ["Computer Vision", "YOLO", "Image Augmentation"],
+    "demo": null,
+    "source": null
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Make Change - Homeless Support App",
+    "imageSrc": "projects/make-change.png",
+    "description": "App to help track and support homeless individuals",
+    "skills": ["Database Design", "Mobile App Development"],
+    "demo": null,
+    "source": null
   }
 ]
