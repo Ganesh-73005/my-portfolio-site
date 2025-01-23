@@ -3,11 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Ganesh-73005.github.io/my-portfolio-site",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "start": "parcel",
+    "build": "parcel build",
+    "build-gh": "parcel build --public-url 'https://Ganesh-73005.github.io/my-portfolio-site'",
+    "predeploy": "npm run build-gh",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fontsource/outfit": "^5.0.8",
